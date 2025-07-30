@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inspector Documentación</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        pre { background-color: #f4f4f4; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Inspector - Documentación de Uso</h1>
+    <h2>Descripción</h2>
+    <p>
+        Este repositorio contiene los archivos base para entrenar y probar un flujo de procesamiento
+        de documentos. La idea principal es tomar documentos de ejemplo, entrenar un modelo que los
+        comprenda y posteriormente ejecutar consultas sobre el modelo entrenado.
+    </p>
+    <h2>Tecnologías y librerías</h2>
+    <ul>
+        <li>Python 3</li>
+        <li>Bibliotecas de procesamiento de lenguaje natural (por ejemplo, <code>langchain</code>)</li>
+        <li>Herramientas de vectorización (por ejemplo, <code>sentence-transformers</code>)</li>
+    </ul>
+    <h2>Cómo usar este repositorio</h2>
+    <ol>
+        <li>Coloque sus documentos de ejemplo en la carpeta <code>docs/</code>.</li>
+        <li>Ejecute <code>python3 train.py</code> para procesar los documentos y entrenar el modelo.</li>
+        <li>Después del entrenamiento, pruebe el flujo ejecutando <code>python3 run.py</code>.</li>
+    </ol>
+    <h2>Agregar nuevos documentos</h2>
+    <ol>
+        <li>Cree un archivo (por ejemplo, <code>docs/ejemplo.txt</code>) con el contenido que desea agregar.</li>
+        <li>Repita el paso de entrenamiento para actualizar el modelo con la nueva información.</li>
+        <li>Realice consultas de prueba utilizando el script de ejecución.</li>
+    </ol>
+    <h2>Comandos útiles</h2>
+    <pre>
+        python3 train.py   # Entrena el modelo con los documentos en docs/
+        python3 run.py     # Abre un prompt para hacer preguntas al modelo
+    </pre>
+</body>
+</html>
