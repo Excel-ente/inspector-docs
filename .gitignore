@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+venv/
+models/
+out/
+zips_in/
+data/
+*.png
+*.json
