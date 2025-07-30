@@ -1,0 +1,12 @@
+tensorflow>=2.15
+opencv-python
+pillow
+pdf2image
+pytesseract
+pydantic
+numpy
+scikit-learn
+rich
+unidecode
+rapidfuzz
+python-dotenv
